@@ -1,0 +1,382 @@
+@font-face {font-family: 'Whitney-Light'; src: url('../fonts/Whitney-Light.otf');}
+@font-face { font-family: 'Whitney-Semibold'; src: url('../fonts/Whitney-Semibold.otf');}
+@font-face { font-family: 'Whitney-LightItalic'; src: url('../fonts/Whitney-LightItalic.otf');}
+
+.wrapper {margin: 0 auto; max-width: 1200px; width: 100%;}
+.clr::after {clear: both; content: ''; display: table;}
+.fl {float: left;}
+.fr {float: right;}
+.title {width: 100%; text-align: center; margin: 0 auto; }
+/* .title h2 {font-family: ; font-size: 96px; line-height: 64px;} */
+h2 {font-size: 60px;}
+div {box-sizing: border-box;}
+a {text-decoration: none; font-family: 'Whitney-Semibold';}
+body {font-family: 'Whitney-Semibold';}
+
+
+/***************HEADER***/
+
+header {background: url(../images/bg-header.jpg) no-repeat top center; background-size: cover; height: 860px;}
+header nav {width: 100%;}
+header nav .nav-wrap {max-width: 1370px; width: 100%; margin: 0 auto;}
+header nav .logo {height: 80px;}
+header nav .logo a {line-height: 80px; display: block; line-height: 80px;}
+header nav .logo a img {vertical-align: middle;}
+header nav .menu ul li {display: inline-block; margin-right: 25px; height: 80px; vertical-align: middle;}
+header nav .menu ul li a {letter-spacing: 2px; font-size: 22px; color: #b9d531; line-height: 80px;}
+header nav .menu ul li p {color: #fff; font-size: 32px; line-height: 80px; letter-spacing: 2px;}
+
+header .wrapper {position: relative;}
+header .heading {position: absolute; top: 120px; max-width: 580px; width: 100%; z-index: 3;}
+header .heading .headline {width: 100%; margin-bottom: 40px; color: #fff;}
+header .heading .headline h2 {/*font-size: 96px; line-height: 64px; */ margin-bottom: 20px;}
+header .heading .headline p {letter-spacing: 2px; font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px; text-align: center;}
+header .heading .headline p span {font-family: 'Whitney-Semibold';}
+
+.fetch-info {max-width: 500px; width: 100%; background: #232961; color: #fff; padding: 30px 50px 45px 50px;}
+.fetch-info .fetch-info-inner {width: 100%;}
+.fetch-info .fetch-info-inner .fetch-title {margin-bottom: 20px; text-align: center;}
+.fetch-info .fetch-info-inner .fetch-title h3 {font-size: 28px; letter-spacing: 2px;}
+.fetch-info .fetch-info-inner .fetch-title p {font-family: 'Whitney-Light'; font-size: 22px; letter-spacing: 2px;}
+
+.fetch-info .fetch-info-inner .fetch-form {width: 100%;}
+.fetch-info .fetch-info-inner .fetch-form form {width: 100%;}
+.fetch-info .fetch-info-inner .fetch-form form ul {width: 100%;}
+.fetch-info .fetch-info-inner .fetch-form form ul li {width: 100%; margin-bottom: 30px;}
+.fetch-info .fetch-info-inner .fetch-form form ul li input {letter-spacing: 2px; font-family: 'Whitney-Light'; line-height: 60px; color: #000; font-size: 22px; width: 100%; height: 60px; background-color: #7b7fa4; border: none; text-align: center;}
+.fetch-info .fetch-info-inner .fetch-form form ul li input::placeholder {color: #3a4073; font-size: 22px;}
+.fetch-info .fetch-info-inner .fetch-form form ul li input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.fetch-info .fetch-info-inner .fetch-form form ul li:last-child {padding-top: 5px; margin-bottom: 0;}
+.fetch-info .fetch-info-inner .fetch-form form ul li button {letter-spacing: 2px; width: 100%; color: #fff; height: 60px; background-color: #b9d531; border: none; cursor: pointer; border-radius: 10px; font-size: 22px; line-height: 60px;}
+
+
+
+
+/********************FUR-WELL*****/
+
+.fur-well {width: 100%; position: relative;}
+.curly-border-white {background: url(../images/curly-border-white.png) repeat-x; height: 78px; width: 100%; position: absolute; z-index: 2; top: -75px;}
+.fur-well .fur-well-content {padding-top: 100px; background: url(../images/bg-dog.jpg) no-repeat center left; height: 1000px;}
+.fur-well .fur-well-content .fur-well-text {max-width: 560px; width: 100%;}
+.fur-well .fur-well-content .fur-well-text h2 {color: #232961; /* font-size: 96px; line-height: 64px; */ margin-bottom: 30px;}
+.fur-well .fur-well-content .fur-well-text p.green-p {font-family: 'Whitney-Light'; font-size: 26px; line-height: 32px; color: #b9d531; margin-bottom: 30px;}
+.fur-well .fur-well-content .fur-well-text p {font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px;}
+.fur-well .fur-well-content .fur-well-text p span {font-family: 'Whitney-Semibold';}
+
+
+
+
+/********************SERVICES***/
+
+.services {width: 100%; padding-bottom: 180px;}
+.services .title {margin-bottom: 50px;}
+.services .title h2 {color: #232961;}
+.services .services-list {width: 100%; margin-bottom: 65px;}
+.services .services-list ul {width: 100%; text-align: center;}
+.services .services-list ul li {display: inline-block; max-width: 295px; width: 100%; box-sizing: border-box; padding: 0 10px; vertical-align: top;}
+.services .services-list ul li .services-img {width: 100%;}
+.services .services-list ul li .services-img img {text-align: center;}
+.services .services-list ul li .services-title {width: 100%; padding-top: 35px; height: 120px; text-align: center; }
+.services .services-list ul li .services-title h3 {font-size: 28px; line-height: 32px; padding: 0 30px; color: #232961;}
+.services .services-list ul li .services-text {width: 100%;}
+.services .services-list ul li .services-text p {font-size: 22px; line-height: 24px; font-family: 'Whitney-Light';}
+
+.fetch-btn-wrap {width: 100%; text-align: center; margin: 0 auto;}
+a.fetch-btn {display: inline-block; padding: 20px 25px; font-size: 22px; background: #b9d531; color: #fff; border-radius: 10px; letter-spacing: 2px;}
+
+
+
+
+
+/**********************MEMBERSHIPS****/
+
+.memberships {position: relative; width: 100%; background-color: #232961; padding-bottom: 180px;}
+.curly-border-purple {background: url(../images/curly-border-purple.png) repeat-x; height: 78px; width: 100%; position: absolute; z-index: 2; top: -75px;}
+.memberships .title {margin-bottom: 60px;}
+.memberships .title h2 {color: #fff;}
+.memberships .memb-list {width: 100%; text-align: center; margin-bottom: 30px;}
+.memberships .memb-list ul {width: 100%; text-align: center;}
+.memberships .memb-list ul li {box-shadow: 0 0 15px #000; vertical-align: top; margin-right: 15px; display: inline-block; max-width: 280px; width: 100%; height: 500px; background: #b9d531; color: #232961; padding: 30px 8px; box-sizing: border-box;}
+.memberships .memb-list ul li:last-child {margin-right: 0;}
+.memberships .memb-list ul li .memb-title {width: 100%; text-align: center; height: 60px; margin-bottom: 20px;}
+.memberships .memb-list ul li .memb-title h3 {font-size: 24px; line-height: 30px;}
+.memberships .memb-list ul li .memb-text {width: 100%; text-align: center;}
+.memberships .memb-list ul li .memb-text p {font-size: 22px; line-height: 24px; font-family: 'Whitney-Light'; margin-bottom: 20px;}
+.memberships .memb-list ul li .memb-text p.overnighter {margin-bottom: 80px;}
+.memberships .memb-list ul li .memb-text p span {font-size: 16px; line-height: 19px;}
+
+.memberships .add-ons {width: 100%; text-align: center; color: #fff; margin-bottom: 60px;}
+.memberships .add-ons h3 {font-size: 28px; line-height: 30px; margin-bottom: 30px;}
+.memberships .add-ons p {font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px; margin-bottom: 25px;}
+
+.memberships a.fetch-btn {display: inline-block; padding: 20px 25px; font-size: 22px; background: #fff; color: #b9d531; border-radius: 10px; letter-spacing: 2px;}
+
+
+
+
+/************************DOGMA******/
+
+.dogma {width: 100%; position: relative;}
+.dogma .title h2 {color: #222962;}
+.dogma .dogma-content {width: 100%; margin-bottom: 100px; margin-top: 50px; text-align: center;}
+.dogma .dogma-content .dogma-logo {display: inline-block; max-width:580px; vertical-align: top;}
+.dogma .dogma-content .dogma-logo img {width: 100%;}
+.dogma .dogma-content .dogma-list {display: inline-block; max-width:580px; vertical-align: top; padding: 0 40px;}
+.dogma .dogma-content .dogma-list ul {width: 100%;}
+.dogma .dogma-content .dogma-list ul li {margin-bottom: 10px; text-align: left;}
+.dogma .dogma-content .dogma-list ul li p {font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px; position: relative; padding-left: 30px;}
+.dogma .dogma-content .dogma-list ul li p::before {content: ''; background: url(../images/green-arrow.png) no-repeat center center; width: 20px; height: 24px; position: absolute; left: 0;}
+
+
+
+
+
+/*********************DIFFERENCE***/
+
+.difference {width: 100%; padding-bottom: 180px;}
+.difference .title h2 {color: #222962;}
+.difference .diff-list {margin: 30px 0 60px 0;}
+.difference .diff-list ul {width: 100%; text-align: center;}
+.difference .diff-list ul li {max-width: 230px; width: 100%; min-height: 260px; display: inline-block; vertical-align: top; padding: 0 20px; box-sizing: border-box; text-align: center;}
+.difference .diff-list ul li .diff-img {width: 100%; height: 130px; line-height: 130px;}
+.difference .diff-list ul li .diff-img img {vertical-align: middle;}
+.difference .diff-list ul li .diff-title {width: 100%; text-align: center;}
+.difference .diff-list ul li .diff-title h3 {font-size: 22px; line-height: 24px; color: #222962;}
+
+.difference a.fetch-btn {color: #fff; background: #222962;}
+
+
+
+
+/*********************FOLLOW****/
+
+.follow {position: relative; width: 100%; background: #b9d531; padding-bottom: 180px;}
+.follow .title h2 {color: #222962;}
+.curly-border-green {background: url(../images/curly-border-green.png) repeat-x; height: 78px; width: 100%; position: absolute; z-index: 2; top: -75px;}
+.follow .follow-nick {width: 100%; margin: 0 auto; text-align: center; padding: 30px 0;}
+.follow .follow-nick a {font-family: 'Whitney-Light'; font-size: 28px; line-height: 21px; color: #fff; letter-spacing: 2px;}
+.follow .ig-list {width: 100%; text-align: center;}
+.follow .ig-list ul {width: 100%; text-align: center;}
+.follow .ig-list ul li {margin: 0 20px 25px 0; display: inline-block; max-width: 280px; width: 100%; height: 280px;}
+.follow .ig-list ul li img {width: 100%;}
+.follow .ig-list ul li:nth-child(4n) {margin-right: 0;}
+
+.follow a.fetch-btn {color: #fff; background: #222962; margin-top: 50px;}
+
+
+
+
+
+/********************MEMBERS***/
+
+.members {position: relative; width: 100%; }
+.members .title h2 {color: #222962;}
+.members .memb-slider {width: 100%; padding: 40px 0 70px 0;}
+.members .memb-slider .slider {max-width: 1120px; width: 100%; height: 250px; position: relative; margin: 0 auto; padding: 0 80px;}
+.members .memb-slider .slider::before {content: ''; position: absolute; background: url(../images/slider-arrow-left.png) no-repeat center center; width: 20px; height: 24px; right: 100%; top: 45%; cursor: pointer;}
+.members .memb-slider .slider::after {content: ''; position: absolute; background: url(../images/slider-arrow-right.png) no-repeat center center; width: 20px; height: 24px; left: 100%; top: 45%; cursor: pointer;}
+.members .memb-slider .slider-inner {width: 100%; height: 250px; display: flex; align-items: center;}
+.members .memb-slider .slider-inner .slider-img {max-width: 250px; width: 100%; }
+.members .memb-slider .slider-inner .slider-img img {width: 100%;}
+.members .memb-slider .slider-inner .slider-text {max-width: 700px; width: 100%; padding-left: 20px;}
+.members .memb-slider .slider-inner .slider-text p {font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px; letter-spacing: 1px;}
+.members .memb-slider .slider-inner .slider-text p.memb-quote {margin-bottom: 15px;}
+.members .memb-slider .slider-inner .slider-text p.memb-name {font-family: 'Whitney-LightItalic';}
+
+
+
+
+/*********************FAQ***/
+
+.faq .title h2 {color: #222962;}
+.faq .faq-list {margin: 30px 0 80px 0;}
+.faq .faq-list ul {width: 100%;}
+.faq .faq-list ul li {display: block;  border-bottom: 1px solid #b9d531; padding: 0 20px;}
+.faq .faq-list ul li .faq-hedaline {cursor: pointer; height: 80px; line-height: 80px; position: relative;}
+.faq .faq-list ul li .faq-hedaline::after {top: 0; bottom: 0; margin: auto; content: ''; left:99%; position: absolute; background: url(../images/arr-down.png) no-repeat center center; width: 17px; height: 11px;}
+.faq .faq-list ul li span.faq-title {font-size: 28px; line-height: 24px; color: #222962; display: inline-block;}
+.faq .faq-list ul li span.arr-down {display: inline-block; float: right;}
+
+.faq .faq-list ul li .faq-content {padding-bottom: 30px; width: 80%;}
+.faq .faq-list ul li .faq-content p {font-family: 'Whitney-Light'; font-size: 22px; line-height: 24px;}
+
+
+
+
+/*********************CONTACT***/
+
+.contact {width: 100%;}
+.contact .fetch-info {padding: 30px 50px; height: 781px;}
+.fetch-info .fetch-contact {padding: 30px 0 40px 0;}
+.fetch-info .fetch-contact .socials-address {width: 100%; margin-bottom: 30px;}
+.fetch-info .fetch-contact .socials-address .socials .socials-fb,
+.fetch-info .fetch-contact .socials-address .socials .socials-ig {width: 70px; height: 70px;}
+.fetch-info .fetch-contact .socials-address .socials a {display: block; color: #222962; background: #fff; width: 100%; height: 100%; font-size: 40px; line-height: 70px; text-align: center;border-radius: 100%;}
+.fetch-info .fetch-contact .socials-address .socials .socials-fb {margin-right: 20px;}
+
+.fetch-info .fetch-contact .socials-address .address {display: flex; align-items: center; height: 70px;}
+.fetch-info .fetch-contact .socials-address .address p {font-size: 22px; line-height: 24px; letter-spacing: 1px;}
+
+.fetch-info .fetch-contact .fetch-number {width: 100%; text-align: center;}
+.fetch-info .fetch-contact .fetch-number p {font-size: 32px; line-height: 80px; letter-spacing: 2px;}
+
+.fetch-info .fetch-footer p {position: relative; font-family: 'Whitney-Light'; font-size: 15px; line-height: 32px; letter-spacing: 1px;}
+a.uhsome {display: inline-block; margin-left: 10px;}
+a.uhsome img {vertical-align: middle;}
+
+.map {max-width: 699px; width: 100%;}
+
+
+
+
+
+/******************RESPONSIVE***/
+
+
+@media screen and (max-width: 768px) {
+  .wrapper {max-width: 700px;}
+  header nav .logo {text-align: center; float: none;}
+  header .heading {top: 60px; left: 0; right: 0; margin: auto;}
+  header .heading .headline {text-align: center;}
+  .fetch-info {margin: 0 auto; max-width: 400px; padding: 20px;}
+  .fetch-info .fetch-info-inner .fetch-form form ul li {margin-bottom: 20px;}
+  .fetch-info .fetch-info-inner .fetch-title h3 {font-size: 24px; margin-bottom: 10px;}
+  .fetch-info .fetch-info-inner .fetch-title p {font-size: 20px;}
+
+  .fur-well .fur-well-content {background: url(../images/bg-dog-resp.jpg) no-repeat left center;}
+  .fur-well .fur-well-content {padding-top: 60px; height: 880px;}
+  .fur-well .fur-well-content .fur-well-text {max-width: 560px;}
+  .fur-well .fur-well-content .fur-well-text p.green-p { max-width: 380px; float: right;}
+  .fur-well .fur-well-content .fur-well-text p {max-width: 470px; float: right;}
+
+  .services {padding-bottom: 140px;}
+  .services .services-list ul li {margin-bottom: 45px;}
+  .services .services-list {margin-bottom: 30px;}
+
+  .memberships {padding-bottom: 140px;}
+  .memberships .memb-list ul li {margin-bottom: 20px;}
+  .memberships .memb-list ul li:nth-child(2n) {margin-right: 0;}
+
+  .dogma .dogma-content .dogma-logo {margin-bottom: 30px;}
+
+  .difference {padding-bottom: 140px;}
+  .difference .diff-list {margin-bottom: 30px;}
+
+  .follow {padding-bottom: 140px;}
+  .follow .ig-list ul li:nth-child(2n) {margin-right: 0;}
+
+  .members .memb-slider .slider {padding:0 30px 0 15px;}
+  .members .memb-slider .slider-inner .slider-text {padding-left: 0;}
+  .members .memb-slider .slider-inner .slider-text p.memb-quote {font-size: 18px; line-height: 18px; letter-spacing: 0;}
+
+  .faq .faq-list ul li span.faq-title { font-size: 22px;}
+  .faq .faq-list ul li .faq-content p {font-size: 18px; line-height: 20px;}
+
+  .contact .fetch-info {position: relative; margin: 0 auto; max-width: 700px; width: 100%; padding: 20px 0 20px 20px; float: none; height: 440px;}
+  .contact .fetch-info .fetch-info-inner {width: 50%; float: left;}
+  .contact .fetch-info .fetch-info-inner::after {clear: both;}
+  .contact .fetch-info .fetch-contact { float: left; width: 50%; padding: 0;}
+  .contact .fetch-info .fetch-contact::after {clear: both;}
+  .contact .fetch-footer {position: absolute; width: 45%; bottom: 30px; right: 0; }
+  .contact .fetch-info .fetch-info-inner .fetch-form form ul li {margin-bottom: 20px;}
+  .contact .fetch-info .fetch-info-inner .fetch-title h3 {font-size: 24px; margin-bottom: 10px;}
+  .contact .fetch-info .fetch-info-inner .fetch-title p {font-size: 20px;}
+  .contact .fetch-info .fetch-contact .socials-address .socials {float: none; }
+
+  .contact .fetch-info .fetch-contact .socials-address .address {float: none; text-align: center;}
+  .contact .fetch-info .fetch-contact .socials-address .socials {text-align: center; margin-bottom: 10px;}
+  .contact .fetch-info .fetch-contact .socials-address .socials .socials-fb,
+  .contact .fetch-info .fetch-contact .socials-address .socials .socials-ig {float: none; display: inline-block;}
+  .contact .fetch-info .fetch-contact .socials-address .address p {margin: 0 auto;}
+  .contact .fetch-info .fetch-contact .socials-address {margin-bottom: 0;}
+  .contact .fetch-info .fetch-contact {padding-bottom: 0;}
+  .map {float: none;}
+  .map iframe[width] {max-width: 700px; }
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+  .wrapper {max-width: 375px;}
+  .map {max-width: 375px;}
+  .map iframe[width] {max-width: 375px;}
+
+  .menu {display: none;}
+  h2 {font-size: 32px; color: #333; text-align: center;}
+  header {height: 667px;}
+  header .heading .headline p {font-size: 16px; line-height: 20px; color: #000;}
+
+  .fetch-info {max-width: 300px; padding: 10px; }
+  .fetch-info .fetch-info-inner .fetch-title h3 {font-size: 18px;}
+  .fetch-info .fetch-info-inner .fetch-title p {font-size: 16px;}
+  .fetch-info .fetch-info-inner .fetch-form form ul li {margin-bottom: 15px;}
+  .fetch-info .fetch-info-inner .fetch-form form ul li input {height: 45px; font-size: 20px; line-height: 45px;}
+  .fetch-info .fetch-info-inner .fetch-form form ul li button {height: 45px; font-size: 16px; line-height: 45px;}
+
+  .fur-well .fur-well-content {padding-top: 40px; background: url(../images/bg-dog-blur.jpg) no-repeat center center;}
+  .fur-well .fur-well-content .fur-well-text p.green-p {font-size: 22px;}
+  .fur-well .fur-well-content .fur-well-text p {font-size: 18px;}
+  .fur-well .fur-well-content {height: 770px;}
+
+  .services .services-list ul li .services-title {padding-top: 10px; height: 50px; }
+  .services .services-list ul li .services-title h3 {font-size: 22px; padding: 0;}
+  .services .services-list ul li .services-text p {font-size: 18px;}
+
+  a.fetch-btn {font-size: 16px;}
+
+  .memberships .memb-list ul li {margin-right: 0; padding: 15px 8px;}
+  .memberships .memb-list ul li {max-width: 250px;}
+  .memberships .memb-list ul li .memb-title h3 {font-size: 20px;}
+  .memberships .memb-list ul li .memb-title {margin-bottom: 0;}
+  .memberships .memb-list ul li .memb-text p {font-size: 18px; line-height: 18px;}
+  .memberships .memb-list ul li {height: 420px;}
+  .memberships .add-ons h3 {font-size: 22px; margin-bottom: 20px;}
+  .memberships .add-ons p {font-size: 18px; line-height: 18px;}
+  .memberships a.fetch-btn {font-size: 16px;}
+
+  .dogma .dogma-content .dogma-list ul li p {font-size: 18px;}
+
+  .difference .diff-list ul li .diff-title h3 {font-size: 20px; line-height: 22px;}
+  .difference .diff-list ul li {min-height: 230px;}
+  .difference .diff-list ul li .diff-img {height: 125px;}
+
+  .follow .follow-nick a {font-size: 22px;}
+  .follow .ig-list ul li {margin: 0 10px 15px 0;}
+  .follow .ig-list ul li {width: 170px; height: 170px;}
+
+  .members .memb-slider .slider {padding: 0;}
+  .members .memb-slider .slider-inner .slider-text p.memb-quote {font-size: 16px; line-height: 16px;}
+  .members .memb-slider .slider-inner .slider-text p {font-size: 18px; line-height: 18px;}
+
+  .faq .faq-list ul li span.faq-title {font-size: 18px;}
+  .faq .faq-list ul li .faq-hedaline {height: 60px; display: flex; align-items: center;}
+  .faq .faq-list ul li span.faq-title {padding-right: 22px;}
+  .faq .faq-list ul li .faq-content p {font-size: 16px; line-height: 18px;}
+
+  .contact .fetch-info {padding: 10px;}
+  .contact .fetch-info .fetch-info-inner {width: 100%;}
+  .contact .fetch-info .fetch-contact {width: 100%;}
+  .contact .fetch-info .fetch-info-inner .fetch-form form ul li button {line-height: 16px;}
+  .contact .fetch-info .fetch-contact .socials-address .address p {font-size: 20px;}
+  .contact .fetch-footer {width: 100%; text-align: center;}
+  .contact .fetch-info {height: 680px;}
+
+  .map iframe[width] {height: 400px;}
+
+}
+
+
+
+@media screen and (max-width: 414px) {
+  .fur-well .fur-well-content .fur-well-text {padding: 0 20px; text-align: justify;}
+  .memberships .add-ons {padding: 0 20px;}
+  .memberships .add-ons p {font-size: 16px; line-height: 16px;}
+  .services .title h2 {margin-top: 30px;}
+  .memberships .memb-list ul li {height: 370px; }
+  .memberships .memb-list ul li .memb-text p {margin-bottom: 15px;}
+  .members .memb-slider .slider::before {right: 95%;}
+}
